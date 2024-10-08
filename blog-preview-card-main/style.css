@@ -4,4 +4,47 @@ body {
     box-sizing: border-box;
     font-family: "Figtree", sans-serif;
     background-color: #F4D04E;
+    height: 100vh;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p, h2 {
+    padding-left: 1rem;
+}
+
+h1 {
+    margin-left: 1rem;
+    background-color: #F4D04E;
+    width: 8rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.card {
+    width: 400px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+
+    border-radius: 15px;;
+    box-shadow: 9px 9px#111111;
+}
+
+.main {
+    width: 85%;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.avatar {
+    width: 30px;
+}
+
+.Greg {
+    display: inline-block;
+    width: 50%;
 }
